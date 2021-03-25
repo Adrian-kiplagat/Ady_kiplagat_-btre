@@ -142,15 +142,7 @@ MESSAGE_TAGS = {
 
 }
 
-# email config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'adriankiplagat@gmail.com'
-EMAIL_HOST_PASSWORD = 27536217023
-EMAIL_USER_TLS = True
 
-# required
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 try:
     from .local_settings import *
 except ImportError:
